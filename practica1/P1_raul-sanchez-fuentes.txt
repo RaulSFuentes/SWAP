@@ -1,5 +1,5 @@
-#Práctica 1
-##Servidor 1
+# Pr√°ctica 1
+## Servidor 1
 
 Server version: Apache/2.2.22 (Ubuntu)\
 Server built:   Jul 22 2014 14:37:02\
@@ -15,7 +15,7 @@ www-data  1730  0.0  0.3  34068  3768 ?        S    12:56   0:00 /usr/sbin/apach
 www-data  1731  0.0  0.3  34068  3768 ?        S    12:56   0:00 /usr/sbin/apache2 -k start\
 raul      1762  0.0  0.0   4408   824 tty1     S+   13:05   0:00 grep --color=auto apache\
 
-##Servidor 2
+## Servidor 2
 
 Server version: Apache/2.2.22 (Ubuntu)\
 Server built:   Jul 22 2014 14:37:02\
