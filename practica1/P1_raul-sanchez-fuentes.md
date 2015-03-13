@@ -1,4 +1,4 @@
-# Práctica 1
+# Pr√°ctica 1
 ## Servidor 1
 
 Server version: Apache/2.2.22 (Ubuntu)\
