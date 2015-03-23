@@ -33,4 +33,17 @@ Para acabar he vuelto a modificar la configuración del nginx para hacer lo que 
 
 ** “”Cada siete peticiones, cinco vayan a la maquina1 y otra a cada unas de las restantes máquinas del grupo (la segunda es el mismo balanceador pero con un servidor web adicional configurado en otro puerto). Además, si ocurre un error, la petición se pasará al siguiente servidor, hasta que se consiga servir o todos den error... También hemos establecido que el segundo servidor espere hasta tres intentos fallidos de conexión antes de dar por considerado ese servidor como no operativo, y esperará 30 segundos entre fallos.””:
 
-![](https://github.com/RaulSFuentes/SWAP2015/blob/master/practica3/imagenes/6.png)
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/practica3/imagenes/6.png)
+
+Vemos como balancea:   
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/practica3/imagenes/7.png)   
+
+
+
+## Haproxy   
+
+
+
+
+
