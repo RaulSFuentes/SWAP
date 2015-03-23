@@ -43,7 +43,10 @@ Vemos como balancea:
 
 ## Haproxy   
 
+Configuramos haproxy:   
 
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/practica3/imagenes/8.png) 
 
 
 
