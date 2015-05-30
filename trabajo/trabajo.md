@@ -64,13 +64,30 @@ Comprobamos que el puerto por el que escucha el servidor es el 5222:
  
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/13.png)
 
-Creamos el administrador:
+Indicamos quien será el administrador:
 
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/14.png)
 
-Ahora para crear usuarios introduciremos este comando en un terminal como superusuario "ejabberdctl register <usuario> <servidor> <contraseña>":
+Ahora para crear usuarios introduciremos este comando en un terminal como superusuario "ejabberdctl register <usuario> <servidor> <contraseña>".   
+
+Primeramente creamos el usuario administrador:   
 
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/15.png)
+
+Falta la contraseña al final.   
+
+* Para eliminar un usuario bastaría con seguir el siguiente patrón: "sudo ejabberdctl unregister usuario".   
+
+Con esto ya tendríamos creado nuestro servidor ejabberd.   
+
+* Para la administración del servidor tenemos la posibilidad de acceder mediante html gracias a cuando abrimos el puerto 5280. Para ello introduciremos en nuestro navegador: "http://servidor.es:5280/admin".   
+
+Habremos de sustituir servidor.es por nuestro dominio, en mi caso swapraul.cloudapp.net. Y este sería el aspecto de la zona de control de usuarios: 
+
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/16.png)
+
+
 
 
 
