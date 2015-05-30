@@ -1,5 +1,6 @@
-# Práctica 1
-## Servidor
+# Trabajo Final
+
+## Instalación de la máquina servidora
 
 Primeramente vamos a proceder a instalar el servidor en azure, para ello muestro unas capturas de pantalla. En ellas se muestran los pasos a seguir para obtener nuestro servidor.   
 
@@ -23,8 +24,72 @@ Y por último confirmamos:
 
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/5.png)
 
-
+Vemos como ya tengo creada la máquina: 
 
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/6.png)
 
+Y ahora muestro los datos de esta:
+
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/7.png)
+
+
+Ahora instalaremos Openssl puesto que la versión actual del Portal de administración de Azure solo acepta claves públicas SSH que estén encapsuladas en un certificado X509.  
+
+Introduciremos estos comandos para crear la clave y darle permisos:   
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/8.png)
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/9.png)
+
+
+Y ya estaremos dentro de nuestra máquina virtual mediante ssh:
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/10.png)
+
+
+## Instalación del servidor Ejabberd
+
+
+Dado que se encuentra en los repositorios oficiales pasaré a instalarlo mediante apt-get install ejabberd: 
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/11.png)
+
+
+Una vez ya lo tenemos instalado pasaremos a configurarlo. Para ello modificaremos el fichero de configuración que se encuentra en /etc/ejabberd/ejabberd.yml.
+
+Lo primero será indicarle la dirección para el DNS:
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/12.png)
+
+Comprobamos que el puerto por el que escucha el servidor es el 5222: 
+ 
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/13.png)
+
+Creamos el administrador:
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/14.png)
+
+Ahora para crear usuarios introduciremos este comando en un terminal como superusuario "ejabberdctl register <usuario> <servidor> <contraseña>":
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/15.png)
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+** Bibliografía
+
+* https://azure.microsoft.com/es-es/documentation/articles/virtual-machines-linux-tutorial/
+
+* https://wiki.debian.org/es/Ejabberd_Configuration
+
+* https://azure.microsoft.com/es-es/documentation/articles/virtual-machines-linux-use-ssh-key/
+
