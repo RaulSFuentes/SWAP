@@ -128,3 +128,5 @@ Y con esto ya tendríamos disponible todo nuestro sistema de videollamadas, llam
 * https://geekytheory.com/crea-tu-propio-servidor-xmpp-ejabberd/
 
 * https://jitsi.org/
+
+* http://en.wikipedia.org/wiki/Ejabberd
