@@ -87,6 +87,8 @@ Habremos de sustituir servidor.es por nuestro dominio, en mi caso swapraul.cloud
 
 ![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/16.png)
 
+## Cliente XMPP
+
 
 
 
