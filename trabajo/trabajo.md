@@ -89,15 +89,28 @@ Habremos de sustituir servidor.es por nuestro dominio, en mi caso swapraul.cloud
 
 ## Cliente XMPP
 
+Para hacer las pruebas del servidor XMPP he decidido instalar el cliente de XMPP llamado jitsi. Mediante este cliente podremos acceder a las cuentas creadas en el servidor y poder comunicarnos con otras cuentas.   
+
+Para empezar crearemos una nueva cuenta en el cliente. Tendremos que ir a archivo -> nueva cuenta, y allí nos saldrá la siguiente pantalla: 
+
+En ella seleccionaremos la red, diremos que es una cuenta ya existente e introduciremos los credenciales.
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/17.png)
+
+Ahora añadiremos un nuevo contacto mediante archivo -> nuevo contacto. Allí indicaremos el ID del contacto:
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/18.png)
+
+Una vez hecho esto ya estamos en disposición de llamar. Vemos que tenemos un listado de contactos, bastara con seleccionar uno e indicar llamar:   
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/19.png)
+
+![](https://github.com/RaulSFuentes/SWAP2015/blob/master/trabajo/imagenes/20.png)
 
 
+Y con esto ya tendríamos disponible todo nuestro sistema de videollamadas, llamadas y chats. Todo ello montado en nuestro propio servidor, el cuál esta alojado en azure.
 
 
-
-
-
-  
- 
 
 
 
