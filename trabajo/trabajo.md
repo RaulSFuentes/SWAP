@@ -80,7 +80,7 @@ Falta la contraseña al final.
 
 Con esto ya tendríamos creado nuestro servidor ejabberd.   
 
-* Para la administración del servidor tenemos la posibilidad de acceder mediante html gracias a cuando abrimos el puerto 5280. Para ello introduciremos en nuestro navegador: "http://servidor.es:5280/admin".   
+* Para la administración del servidor tenemos la posibilidad de acceder mediante html gracias a que abrimos el puerto 5280. Para ello introduciremos en nuestro navegador: "http://servidor.es:5280/admin".   
 
 Habremos de sustituir servidor.es por nuestro dominio, en mi caso swapraul.cloudapp.net. Y este sería el aspecto de la zona de control de usuarios: 
 
@@ -117,7 +117,7 @@ Y con esto ya tendríamos disponible todo nuestro sistema de videollamadas, llam
 
 
 
-** Bibliografía
+## Bibliografía
 
 * https://azure.microsoft.com/es-es/documentation/articles/virtual-machines-linux-tutorial/
 
@@ -125,3 +125,6 @@ Y con esto ya tendríamos disponible todo nuestro sistema de videollamadas, llam
 
 * https://azure.microsoft.com/es-es/documentation/articles/virtual-machines-linux-use-ssh-key/
 
+* https://geekytheory.com/crea-tu-propio-servidor-xmpp-ejabberd/
+
+* https://jitsi.org/
